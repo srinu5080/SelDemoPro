@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Total no. of Links = 155]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14481" started-at="2018-08-19T13:13:16Z" finished-at="2018-08-19T13:13:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14481" started-at="2018-08-19T13:13:16Z" finished-at="2018-08-19T13:13:30Z">
+      <class name="testScript.Test1">
+        <test-method status="PASS" signature="init()[pri:0, instance:testScript.Test1@77caeb3e]" name="init" is-config="true" duration-ms="6467" started-at="2018-08-19T13:13:16Z" finished-at="2018-08-19T13:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testScript.Test1@77caeb3e]" name="facebookTest" duration-ms="6907" started-at="2018-08-19T13:13:22Z" finished-at="2018-08-19T13:13:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no. of Links = 155]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testScript.Test1@77caeb3e]" name="close" is-config="true" duration-ms="1069" started-at="2018-08-19T13:13:29Z" finished-at="2018-08-19T13:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testScript.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
